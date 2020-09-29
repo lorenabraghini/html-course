@@ -1,17 +1,31 @@
 * {
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .text-center {
-
     margin-top: 50px;
     font-size: 60px;
     font-weight: bolder;
+    color: black;
 }
 
-#heading {
+#header-nav {
+    background-color: #A58496;
+    border-radius: 0;
+    border: 0;
+}
+
+#brand {
+    margin: 15px;
+    color: white;
+    font-size: 160%;
+    font-weight: bold;
+    width: max-content;
+    float: left;
+}
+
+#chicken, #beef, #sushi{
     font-size: 40px;
     font-weight: bold;
     color: white;
@@ -19,28 +33,29 @@
 
 .column {
     background-color:#A58496;
+    text-align: justify;
     color: white;
     border: 5px solid black;
     margin-bottom: 10px;
     padding: 20px;
 }
 
-a:link {
+a:link, a:visited, #nav-list a:link, #nav-list a:visited {
     color: white;
     text-decoration: underline;
 }
 
-a:visited {
-    color: white;
-    text-decoration: underline;
-}
-
-a:hover {
+a:hover, a:active, #nav-list a:hover, #nav-list a:active {
     color: black;
     text-decoration: underline;
 }
 
-a:active {
-    color: black;
-    text-decoration: underline;
+.navbar-toggle, .icon-bar {
+    border: 1px solid white;
+}
+
+li {
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid white;
 }
