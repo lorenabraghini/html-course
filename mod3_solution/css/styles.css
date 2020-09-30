@@ -16,13 +16,12 @@
     border: 0;
 }
 
-#brand {
-    margin: 15px;
+#brand a:link, #brand a:visited, #brand a:hover, #brand a:active {
     color: white;
-    font-size: 160%;
     font-weight: bold;
     width: max-content;
     float: left;
+    text-decoration: none;
 }
 
 #chicken, #beef, #sushi{
@@ -54,8 +53,19 @@ a:hover, a:active, #nav-list a:hover, #nav-list a:active {
     border: 1px solid white;
 }
 
+.navbar-toggle {
+    margin-top: 20px;
+}
+
 li {
     text-align: center;
     margin-top: 5px;
     border: 1px solid white;
 }
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
